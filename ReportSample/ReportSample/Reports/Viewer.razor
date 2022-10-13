@@ -1,0 +1,49 @@
+﻿@page "/Viewer"
+
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.Blazor.Reporting.Models
+@using ReportSample.Data
+@using ReportSample.Reports
+@using DevExpress.XtraReports.UI;
+<link href="_content/DevExpress.Blazor.Themes/blazing-berry.bs5.css" rel="stylesheet" />
+<link rel="stylesheet" href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css">
+
+<DxReportViewer @ref="reportViewer" Report="@Report">
+</DxReportViewer>
+
+
+   @code{
+
+
+         DxReportViewer reportViewer { get; set; }
+           XtraReport Report { get; set; }
+
+
+        protected override void OnInitialized()
+        {
+            Report = DataLayer.SetData();
+        }
+
+
+        protected override void OnAfterRender(bool firstRender)
+        {
+            try
+            {
+                if (firstRender)
+                {
+                    reportViewer.TabPanelModel[TabContentKind.DocumentMap].Visible = false;
+                    reportViewer.TabPanelModel[TabContentKind.ExportOptions].Visible = false;
+                    reportViewer.TabPanelModel[TabContentKind.Search].Visible = false;
+                    Report = null;
+                }
+                base.OnAfterRender(firstRender);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
+   }
+   
