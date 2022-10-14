@@ -2,4 +2,7 @@
 @inherits IndexBase
 <PageTitle>Index</PageTitle>
 
-<button @onclick="PrintReport">OpenReport</button>
+
+<div class="p-1"><button @onclick="()=>PrintReport(1)">Report 1</button></div>
+<div class="p-1"><button @onclick="()=>PrintReport(2)">Report 2</button></div>
+<div class="p-1"><button @onclick="()=>PrintReport(3)">Report 3</button></div>

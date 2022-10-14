@@ -18,55 +18,44 @@ namespace ReportSample.Pages
         {
             
         }
-        public async void PrintReport() 
+        public async void PrintReport(int id) 
         {
             List<USerDetails_Schema> UserList_RPT = new List<USerDetails_Schema>();
+            List<USerDetails_Schema> UserList_RPT1 = new List<USerDetails_Schema>();
+            List<USerDetails_Schema> UserList_RPT2 = new List<USerDetails_Schema>();
             try
             {
-
-                //DataObjectArray[] SP_Parameters = new DataObjectArray[3];
-                //for (int i = 0; i < SP_Parameters.Length; i++) { SP_Parameters[i] = new DataObjectArray(); }
-                //SP_Parameters[0].ItemName = "exec ";
-                //SP_Parameters[0].ItemValue = "SP_GET_USER_LIST";
-                //SP_Parameters[0].ItemDataType = "string";
-
-                //SP_Parameters[1].ItemName = "AGENT_GID";
-                //SP_Parameters[1].ItemValue = "11342AC7-1ADF-4653-8B8B-A570F74BB5BD";
-                //SP_Parameters[1].ItemDataType = "string";
-
-
-                //SP_Parameters[2].ItemName = "COMPANY_GID";
-                //SP_Parameters[2].ItemValue = "6B97684A-A773-436B-8353-9C006091621C";
-                //SP_Parameters[2].ItemDataType = "string";
-                string spstring = "exec SP_GET_USER_LIST @AGENT_GID='11342AC7-1ADF-4653-8B8B-A570F74BB5BD',@COMPANY_GID='6B97684A-A773-436B-8353-9C006091621C'";
-                using (DataTable output_table = DataService_Obj.GetDataByURL(spstring))
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////
+                UserList_RPT.Add(new USerDetails_Schema { Address = "uae", Contact = "2593698524", JoiningDate = "18-10-2022", Email = "ali@gmail.com",   Name = "ali"});
+                UserList_RPT.Add(new USerDetails_Schema { Address = "pak", Contact = "2593698524", JoiningDate = "15-11-2020", Email = "akbar@gmail.com", Name = "akbar" });
+                UserList_RPT.Add(new USerDetails_Schema { Address = "isb", Contact = "2593698524", JoiningDate = "12-12-2020", Email = "aslam@gmail.com", Name = "aslam" });
+                UserList_RPT.Add(new USerDetails_Schema { Address = "lhr", Contact = "2593698524", JoiningDate = "14-08-2020", Email = "ahmad@gmail.com", Name = "ahmad" });
+                //////////////////////////////////////////////////////////////////////////////////////////////////////////
+                UserList_RPT1.Add(new USerDetails_Schema { Address = "uae", Contact = "2593698524", JoiningDate = "8-10-2022", Email = "ali@gmail.com", Name = "ali" });
+                UserList_RPT1.Add(new USerDetails_Schema { Address = "pak", Contact = "2593698524", JoiningDate = "5-11-2022", Email = "akbar@gmail.com", Name = "akbar" });
+                UserList_RPT1.Add(new USerDetails_Schema { Address = "isb", Contact = "2593698524", JoiningDate = "2-12-2021", Email = "aslam@gmail.com", Name = "aslam" });
+                UserList_RPT1.Add(new USerDetails_Schema { Address = "lhr", Contact = "2593698524", JoiningDate = "4-08-2022", Email = "ahmad@gmail.com", Name = "ahmad" });
+                //////////////////////////////////////////////////////////////////////////////////////////////////////////
+                UserList_RPT2.Add(new USerDetails_Schema { Address = "uae", Contact = "2593698524", JoiningDate = "18-01-2022", Email = "ali@gmail.com", Name = "ali" });
+                UserList_RPT2.Add(new USerDetails_Schema { Address = "pak", Contact = "2593698524", JoiningDate = "15-01-2021", Email = "akbar@gmail.com", Name = "akbar" });
+                UserList_RPT2.Add(new USerDetails_Schema { Address = "isb", Contact = "2593698524", JoiningDate = "12-01-2021", Email = "aslam@gmail.com", Name = "aslam" });
+                UserList_RPT2.Add(new USerDetails_Schema { Address = "lhr", Contact = "2593698524", JoiningDate = "14-10-2021", Email = "ahmad@gmail.com", Name = "ahmad" });
+                Report = new UserReport();
+                if (id==1) 
                 {
-
-
-                    if (output_table != null)
-                    {
-                        UserList_RPT = new List<USerDetails_Schema>();
-                        foreach (DataRow dataRow in output_table.Rows)
-                        {
-                            UserList_RPT.Add(new USerDetails_Schema
-                            {
-                                Address = dataRow["Address"].ToString(),
-                                Contact = dataRow["Phone"].ToString(),
-                                JoiningDate = dataRow["JoiningDate"].ToString(),
-                                Email = dataRow["Email"].ToString(),
-                                Name = dataRow["userName"].ToString(),
-                            });
-                        }
-                    }
-
+                    Report.DataSource = UserList_RPT;
                 }
-                if (UserList_RPT != null)
+                else if (id==2) 
                 {
-                    Report = new UserReport(); Report.DataSource = UserList_RPT;
-                    DataLayer.GetData(Report);
-                     await jsRunTime.InvokeVoidAsync("open", "/Viewer", "_blank");
-                    //NavigationManager.NavigateTo("/Viewer");
+                    Report.DataSource = UserList_RPT1;
                 }
+                else if (id==3) 
+                {Report.DataSource = UserList_RPT2;
+                }
+                
+                
+                DataLayer.GetData(Report);
+                await jsRunTime.InvokeVoidAsync("open","/Viewer","_blank");
             }
             catch (Exception)
             {
@@ -76,7 +65,8 @@ namespace ReportSample.Pages
             finally
             {
                 UserList_RPT = null;
-
+                UserList_RPT1= null;
+                UserList_RPT2 = null;
                 Report = null;
             }
         }
