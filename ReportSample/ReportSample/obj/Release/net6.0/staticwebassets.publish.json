@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OKHIblxQhg7jGcBuBqrRDVe8SCJC4gHcap2HwlstdhY=",
+  "Hash": "TPUWaeidDW/31fr2+lCHmu9QI3BjtQ79Ej7HV6ooNm4=",
   "Source": "ReportSample",
   "BasePath": "_content/ReportSample",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ReportSample\\wwwroot",
       "Source": "ReportSample",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "Pattern": "**"
     }
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\devexpress.blazor\\22.1.3\\staticwebassets\\modules\\window-resize-helper-8b32f302.js"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\bundle\\ReportSample.styles.css",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\bundle\\ReportSample.styles.css",
       "SourceId": "ReportSample",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "ReportSample.styles.css",
       "AssetKind": "All",
@@ -2258,13 +2258,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\bundle\\ReportSample.styles.css"
+      "OriginalItemSpec": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\bundle\\ReportSample.styles.css"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ReportSample.bundle.scp.css",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ReportSample.bundle.scp.css",
       "SourceId": "ReportSample",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "ReportSample.bundle.scp.css",
       "AssetKind": "All",
@@ -2275,13 +2275,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ReportSample.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ReportSample.bundle.scp.css"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\css\\site.css",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\favicon.ico",
       "SourceId": "ReportSample",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\vs_2022_Professional\\ReportSample\\ReportSample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\DELL\\Documents\\DexExpressReporting\\DevExpressReport\\ReportSample\\ReportSample\\wwwroot\\",
       "BasePath": "_content/ReportSample",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
